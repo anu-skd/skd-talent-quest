@@ -3,11 +3,7 @@ import { Calendar, Award, Users, Facebook, Instagram, Youtube } from 'lucide-rea
 import heroImage from '../assets/hero-education.jpg';
 import CountdownTimer from './CountdownTimer';
 
-const HeroSection = () => {
-  const scrollToRegistration = () => {
-    const element = document.querySelector('#registration');
-    element?.scrollIntoView({ behavior: 'smooth' });
-  };
+const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void }) => {
 
   return (
     <section id="home" className="relative min-h-screen bg-gradient-hero overflow-hidden">
@@ -75,7 +71,7 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.8 }}
             >
               <button
-                onClick={scrollToRegistration}
+                onClick={onOpenRegistration}
                 className="btn-success text-xl px-12 py-4"
               >
                 Register Now
@@ -131,7 +127,7 @@ const HeroSection = () => {
               whileHover={{ scale: 1.05 }}
             >
               <Users className="mx-auto mb-4 text-secondary" size={48} />
-              <h3 className="text-2xl font-bold text-white mb-2">Students</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">Participants</h3>
               <p className="text-white/80">10,000+</p>
             </motion.div>
 

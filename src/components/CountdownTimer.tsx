@@ -9,11 +9,8 @@ interface TimeLeft {
 }
 
 const CountdownTimer = () => {
-  // Set exam date to 3 months from now for demo
-  const examDate = new Date();
-  examDate.setMonth(examDate.getMonth() + 3);
-  examDate.setDate(15); // 15th of the month
-  examDate.setHours(10, 0, 0, 0); // 10:00 AM
+  // Set exam date to October 4, 2025
+  const examDate = new Date(2025, 9, 4, 10, 0, 0, 0); // October 4, 2025 at 10:00 AM
 
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({
     days: 0,

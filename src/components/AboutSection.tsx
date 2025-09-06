@@ -3,7 +3,7 @@ import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { BookOpen, Trophy, Users, Gift, GraduationCap, Target } from 'lucide-react';
 
-const AboutSection = () => {
+const AboutSection = ({ onOpenRegistration }: { onOpenRegistration: () => void }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -72,9 +72,9 @@ const AboutSection = () => {
                 </p>
                 
                 <p className="text-lg leading-relaxed">
-                  This comprehensive examination tests students across multiple subjects and 
-                  provides them with an opportunity to win substantial rewards while gaining 
-                  recognition for their academic achievements.
+                  This online computer-based examination tests students in Physics, Chemistry, Biology, 
+                  and Mathematics with 60 questions in 60 minutes, providing an opportunity to win 
+                  substantial rewards while gaining recognition for academic achievements.
                 </p>
                 
                 <div className="bg-primary/5 rounded-lg p-4 mt-6">
@@ -144,7 +144,7 @@ const AboutSection = () => {
               step towards academic excellence and substantial rewards.
             </p>
             <button 
-              onClick={() => document.querySelector('#registration')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={onOpenRegistration}
               className="btn-hero"
             >
               Register for the Exam

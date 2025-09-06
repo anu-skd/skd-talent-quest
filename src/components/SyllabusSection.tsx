@@ -10,37 +10,37 @@ const SyllabusSection = () => {
   const syllabusData = [
     {
       class: 'VIII',
-      subjects: ['Mathematics', 'Science', 'Social Science', 'English', 'General Knowledge'],
-      duration: '2 Hours',
-      marks: 200,
+      subjects: ['Physics', 'Chemistry', 'Biology', 'Mathematics'],
+      duration: '60 Minutes',
+      marks: 60,
       color: 'from-primary to-blue-600'
     },
     {
       class: 'IX',
-      subjects: ['Mathematics', 'Science', 'Social Science', 'English', 'General Knowledge'],
-      duration: '2.5 Hours',
-      marks: 250,
+      subjects: ['Physics', 'Chemistry', 'Biology', 'Mathematics'],
+      duration: '60 Minutes',
+      marks: 60,
       color: 'from-success to-green-600'
     },
     {
       class: 'X',
-      subjects: ['Mathematics', 'Science', 'Social Science', 'English', 'General Knowledge'],
-      duration: '2.5 Hours',
-      marks: 250,
+      subjects: ['Physics', 'Chemistry', 'Biology', 'Mathematics'],
+      duration: '60 Minutes',
+      marks: 60,
       color: 'from-secondary to-yellow-600'
     },
     {
       class: 'XI',
-      subjects: ['Physics', 'Chemistry', 'Mathematics', 'English', 'General Knowledge'],
-      duration: '3 Hours',
-      marks: 300,
+      subjects: ['Physics', 'Chemistry', 'Biology', 'Mathematics'],
+      duration: '60 Minutes',
+      marks: 60,
       color: 'from-accent to-purple-600'
     },
     {
       class: 'XII',
-      subjects: ['Physics', 'Chemistry', 'Mathematics', 'English', 'General Knowledge'],
-      duration: '3 Hours',
-      marks: 300,
+      subjects: ['Physics', 'Chemistry', 'Biology', 'Mathematics'],
+      duration: '60 Minutes',
+      marks: 60,
       color: 'from-pink-500 to-red-500'
     }
   ];
@@ -64,8 +64,8 @@ const SyllabusSection = () => {
             Exam Syllabus
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Download detailed syllabus for each grade level. Prepare effectively with our 
-            comprehensive study materials and examination patterns.
+            Download detailed syllabus for each grade level. Our online computer-based test 
+            focuses on Physics, Chemistry, Biology, and Mathematics with 60 questions in 60 minutes.
           </p>
         </motion.div>
 
@@ -88,7 +88,7 @@ const SyllabusSection = () => {
                 </div>
                 <div className="flex justify-between items-center mt-4 text-sm">
                   <span>Duration: {item.duration}</span>
-                  <span>Total Marks: {item.marks}</span>
+                  <span>Questions: {item.marks}</span>
                 </div>
               </div>
 
@@ -146,7 +146,7 @@ const SyllabusSection = () => {
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="text-success mr-2" size={16} />
-                  OMR sheet based examination
+                  Online computer-based test
                 </li>
               </ul>
             </div>

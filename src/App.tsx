@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -6,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
-import RegistrationForm from "./components/RegistrationForm";
+import RegistrationDialog from "./components/RegistrationDialog";
 import SyllabusSection from "./components/SyllabusSection";
 import NoticesSection from "./components/NoticesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
@@ -16,19 +17,27 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-const LandingPage = () => (
-  <div className="min-h-screen">
-    <Navigation />
-    <HeroSection />
-    <AboutSection />
-    <RegistrationForm />
-    <SyllabusSection />
-    <NoticesSection />
-    <TestimonialsSection />
-    <FAQSection />
-    <ContactSection />
-  </div>
-);
+const LandingPage = () => {
+  const [isRegistrationOpen, setIsRegistrationOpen] = useState(false);
+
+  return (
+    <div className="min-h-screen">
+      <Navigation />
+      <HeroSection onOpenRegistration={() => setIsRegistrationOpen(true)} />
+      <AboutSection onOpenRegistration={() => setIsRegistrationOpen(true)} />
+      <SyllabusSection />
+      <NoticesSection />
+      <TestimonialsSection />
+      <FAQSection />
+      <ContactSection />
+      
+      <RegistrationDialog 
+        isOpen={isRegistrationOpen} 
+        onClose={() => setIsRegistrationOpen(false)} 
+      />
+    </div>
+  );
+};
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
