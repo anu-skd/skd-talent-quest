@@ -11,7 +11,7 @@ const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void })
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Students studying"
+          alt="Education and learning"
           className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-accent/60"></div>
@@ -109,8 +109,8 @@ const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void })
               whileHover={{ scale: 1.05 }}
             >
               <Calendar className="mx-auto mb-4 text-secondary" size={48} />
-              <h3 className="text-2xl font-bold text-white mb-2">Exam Date</h3>
-              <p className="text-white/80">Coming Soon</p>
+               <h3 className="text-2xl font-bold text-white mb-2">Exam Date</h3>
+               <p className="text-white/80">Oct 4, 2025</p>
             </motion.div>
 
             <motion.div
