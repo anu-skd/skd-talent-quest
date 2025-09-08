@@ -99,40 +99,31 @@ const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void })
 
           {/* Stats Cards */}
           <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6"
+            className="grid grid-cols-1 lg:grid-cols-2 gap-6"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <motion.div
-              className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-center card-hover"
+              className="bg-white/10 backdrop-blur-md rounded-2xl p-8 text-center card-hover"
               whileHover={{ scale: 1.05 }}
             >
-              <Calendar className="mx-auto mb-4 text-secondary" size={48} />
-               <h3 className="text-2xl font-bold text-white mb-2">Exam Date</h3>
-               <p className="text-white/80">Oct 4, 2025</p>
+              <Calendar className="mx-auto mb-4 text-secondary" size={56} />
+               <h3 className="text-3xl font-bold text-white mb-2">Exam Date</h3>
+               <p className="text-xl text-white/80">Oct 4, 2025</p>
             </motion.div>
 
             <motion.div
-              className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-center card-hover"
+              className="bg-white/10 backdrop-blur-md rounded-2xl p-8 text-center card-hover"
               whileHover={{ scale: 1.05 }}
             >
-              <Award className="mx-auto mb-4 text-secondary" size={48} />
-              <h3 className="text-2xl font-bold text-white mb-2">Prizes</h3>
-              <p className="text-white/80">₹50 Lakhs+</p>
-            </motion.div>
-
-            <motion.div
-              className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-center card-hover"
-              whileHover={{ scale: 1.05 }}
-            >
-              <Users className="mx-auto mb-4 text-secondary" size={48} />
-              <h3 className="text-2xl font-bold text-white mb-2">Participants</h3>
-              <p className="text-white/80">10,000+</p>
+              <Award className="mx-auto mb-4 text-secondary" size={56} />
+              <h3 className="text-3xl font-bold text-white mb-2">Prizes</h3>
+              <p className="text-xl text-white/80">₹50 Lakhs+</p>
             </motion.div>
 
             {/* Countdown Timer */}
-            <div className="sm:col-span-2 lg:col-span-1">
+            <div className="lg:col-span-2">
               <CountdownTimer />
             </div>
           </motion.div>

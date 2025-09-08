@@ -11,6 +11,28 @@ const NoticesSection = () => {
     {
       id: 1,
       type: 'important',
+      icon: <Bell className="text-success" size={24} />,
+      title: 'Admissions Open - Apply Now!',
+      content: 'Admissions are now open for the Talent Search Exam 2025. Register online and secure your chance to win up to ₹50 Lakhs in cash prizes. Limited seats available!',
+      date: '2025-01-20',
+      time: '9:00 AM',
+      bgColor: 'bg-success/5',
+      borderColor: 'border-success/20'
+    },
+    {
+      id: 2,
+      type: 'important',
+      icon: <Calendar className="text-primary" size={24} />,
+      title: 'Exam Date Announced - October 4, 2025',
+      content: 'The Talent Search Exam will be conducted on October 4, 2025, through online computer-based test. Duration: 60 minutes for 60 questions covering Physics, Chemistry, Biology & Mathematics.',
+      date: '2025-01-18',
+      time: '2:00 PM',
+      bgColor: 'bg-primary/5',
+      borderColor: 'border-primary/20'
+    },
+    {
+      id: 3,
+      type: 'important',
       icon: <AlertCircle className="text-destructive" size={24} />,
       title: 'Registration Deadline Extended',
       content: 'Due to overwhelming response, we have extended the registration deadline by 10 days. New deadline: 31st March 2025.',
@@ -20,7 +42,7 @@ const NoticesSection = () => {
       borderColor: 'border-destructive/20'
     },
     {
-      id: 2,
+      id: 4,
       type: 'info',
       icon: <Info className="text-primary" size={24} />,
       title: 'Exam Centers Announcement',
@@ -31,7 +53,7 @@ const NoticesSection = () => {
       borderColor: 'border-primary/20'
     },
     {
-      id: 3,
+      id: 5,
       type: 'success',
       icon: <Award className="text-success" size={24} />,
       title: 'Prize Structure Updated',
@@ -42,7 +64,7 @@ const NoticesSection = () => {
       borderColor: 'border-success/20'
     },
     {
-      id: 4,
+      id: 6,
       type: 'info',
       icon: <Bell className="text-accent" size={24} />,
       title: 'Mock Test Schedule Released',
@@ -53,7 +75,7 @@ const NoticesSection = () => {
       borderColor: 'border-accent/20'
     },
     {
-      id: 5,
+      id: 7,
       type: 'info',
       icon: <Info className="text-secondary" size={24} />,
       title: 'Study Material Available',
@@ -146,7 +168,7 @@ const NoticesSection = () => {
                     </div>
 
                     {/* New Badge for recent notices */}
-                    {index < 2 && (
+                    {index < 3 && (
                       <div className="flex-shrink-0">
                         <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-destructive text-destructive-foreground animate-pulse-soft">
                           NEW
