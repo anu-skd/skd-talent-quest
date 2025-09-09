@@ -67,7 +67,7 @@ const AboutSection = ({ onOpenRegistration }: { onOpenRegistration: () => void }
               
               <div className="space-y-4 text-muted-foreground">
                 <p className="text-lg leading-relaxed">
-                  The Talent Search Exam is designed for students from <strong className="text-primary">Grades VIII to XII</strong> 
+                  The Talent Search Exam is designed for students from <strong className="text-primary">Grades VIII to XII</strong>{" "}
                   who want to showcase their academic brilliance and compete at a national level.
                 </p>
                 
