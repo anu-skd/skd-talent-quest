@@ -72,8 +72,8 @@ const AboutSection = ({ onOpenRegistration }: { onOpenRegistration: () => void }
                 </p>
                 
                 <p className="text-lg leading-relaxed">
-                  This <strong className="text-primary">online computer-based test</strong> covers 
-                  <strong className="text-success">Physics, Chemistry, Biology, and Mathematics</strong> with 
+                  This <strong className="text-primary">online computer-based test</strong> covers{" "}
+                  <strong className="text-success">Physics, Chemistry, Biology, and Mathematics</strong> with{" "}
                   <strong className="text-secondary">60 questions in 60 minutes</strong>, providing an opportunity to win 
                   substantial rewards while gaining recognition for academic achievements.
                 </p>
