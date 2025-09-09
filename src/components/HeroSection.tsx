@@ -46,7 +46,7 @@ const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void })
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Talent Search Exam
+              Talent Search Exam 2026
               <span className="block text-lg text-secondary">Grades VIII–XII</span>
             </motion.h2>
 
@@ -59,7 +59,7 @@ const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void })
             >
               <div className="prize-banner animate-float">
                 <Award className="inline-block mr-2" size={24} />
-                Up to ₹50 Lakhs Cash Prizes + Certificates & Goodies
+                Up to ₹50 Lakhs Cash Prizes + 100% Scholarship + Certificates & Goodies
               </div>
             </motion.div>
 
