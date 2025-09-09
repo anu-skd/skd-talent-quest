@@ -46,7 +46,7 @@ const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void })
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Talent Search Exam 2026
+              Talent Search Exam 2025
               <span className="block text-lg text-secondary">Grades VIII–XII</span>
             </motion.h2>
 
@@ -110,7 +110,7 @@ const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void })
             >
               <Calendar className="mx-auto mb-4 text-secondary" size={56} />
                <h3 className="text-3xl font-bold text-white mb-2">Exam Date</h3>
-               <p className="text-xl text-white/80">Oct 4, 2026</p>
+               <p className="text-xl text-white/80">Oct 4, 2025</p>
             </motion.div>
 
             <motion.div

@@ -23,7 +23,7 @@ const FAQSection = () => {
     },
     {
       question: 'Is there any registration fee for the exam?',
-      answer: 'Yes, there is a nominal registration fee of ₹100 INR to participate in the Talent Search Exam 2026. This fee helps us maintain the quality and standards of the examination process.'
+      answer: 'Yes, there is a nominal registration fee of ₹100 INR to participate in the Talent Search Exam 2025. This fee helps us maintain the quality and standards of the examination process.'
     },
     {
       question: 'Can I change my exam center after registration?',

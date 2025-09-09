@@ -272,7 +272,7 @@ const ContactSection = () => {
       <div className="border-t border-border mt-16 pt-8">
         <div className="section-container text-center">
           <p className="text-muted-foreground">
-            © 2026 SKD New Standard Coaching Institute. All Rights Reserved.
+            © 2025 SKD New Standard Coaching Institute. All Rights Reserved.
           </p>
         </div>
       </div>
