@@ -110,7 +110,7 @@ const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void })
             >
               <Calendar className="mx-auto mb-4 text-secondary" size={56} />
                <h3 className="text-3xl font-bold text-white mb-2">Exam Date</h3>
-               <p className="text-xl text-white/80">Oct 4, 2025</p>
+               <p className="text-xl text-white/80">Oct 4, 2026</p>
             </motion.div>
 
             <motion.div

@@ -20,8 +20,8 @@ const AboutSection = ({ onOpenRegistration }: { onOpenRegistration: () => void }
     },
     {
       icon: <Target className="text-success" size={32} />,
-      title: "Scholarship Opportunities",
-      description: "Qualify for educational scholarships and future opportunities"
+      title: "100% Scholarship Available",
+      description: "Get 100% scholarship opportunities for your future education"
     },
     {
       icon: <Gift className="text-accent" size={32} />,

@@ -13,8 +13,8 @@ const NoticesSection = () => {
       type: 'important',
       icon: <Bell className="text-success" size={24} />,
       title: 'Registration Open - Apply Now!',
-      content: 'Registration are now open for the Talent Search Exam 2025. Register online and secure your chance to win up to ₹50 Lakhs in cash prizes. Limited seats available!',
-      date: '2025-01-20',
+      content: 'Registration are now open for the Talent Search Exam 2026. Register online and secure your chance to win up to ₹50 Lakhs in cash prizes. Limited seats available!',
+      date: '2026-01-20',
       time: '9:00 AM',
       bgColor: 'bg-success/5',
       borderColor: 'border-success/20'
@@ -23,9 +23,9 @@ const NoticesSection = () => {
       id: 2,
       type: 'important',
       icon: <Calendar className="text-primary" size={24} />,
-      title: 'Exam Date Announced - October 4, 2025',
-      content: 'The Talent Search Exam will be conducted on October 4, 2025, through online computer-based test. Duration: 60 minutes for 60 questions covering Physics, Chemistry, Biology & Mathematics.',
-      date: '2025-01-18',
+      title: 'Exam Date Announced - October 4, 2026',
+      content: 'The Talent Search Exam will be conducted on October 4, 2026, through online computer-based test. Duration: 60 minutes for 60 questions covering Physics, Chemistry, Biology & Mathematics.',
+      date: '2026-01-18',
       time: '2:00 PM',
       bgColor: 'bg-primary/5',
       borderColor: 'border-primary/20'
@@ -35,8 +35,8 @@ const NoticesSection = () => {
       type: 'important',
       icon: <AlertCircle className="text-destructive" size={24} />,
       title: 'Registration Deadline Extended',
-      content: 'Due to overwhelming response, we have extended the registration deadline by 10 days. New deadline: 31st March 2025.',
-      date: '2025-01-15',
+      content: 'Due to overwhelming response, we have extended the registration deadline by 10 days. New deadline: 31st March 2026.',
+      date: '2026-01-15',
       time: '10:00 AM',
       bgColor: 'bg-destructive/5',
       borderColor: 'border-destructive/20'
@@ -47,7 +47,7 @@ const NoticesSection = () => {
       icon: <Info className="text-primary" size={24} />,
       title: 'Exam Centers Announcement',
       content: 'Exam centers for major cities have been finalized. Check your registered email for the center details and admit card.',
-      date: '2025-01-10',
+      date: '2026-01-10',
       time: '2:30 PM',
       bgColor: 'bg-primary/5',
       borderColor: 'border-primary/20'
@@ -58,7 +58,7 @@ const NoticesSection = () => {
       icon: <Award className="text-success" size={24} />,
       title: 'Prize Structure Updated',
       content: 'Exciting news! We have increased the total prize pool to ₹75 Lakhs with additional scholarship opportunities for top performers.',
-      date: '2025-01-08',
+      date: '2026-01-08',
       time: '11:15 AM',
       bgColor: 'bg-success/5',
       borderColor: 'border-success/20'
@@ -69,7 +69,7 @@ const NoticesSection = () => {
       icon: <Bell className="text-accent" size={24} />,
       title: 'Mock Test Schedule Released',
       content: 'Free mock tests are now available for all registered students. Access through your student portal to practice before the main exam.',
-      date: '2025-01-05',
+      date: '2026-01-05',
       time: '9:00 AM',
       bgColor: 'bg-accent/5',
       borderColor: 'border-accent/20'
@@ -80,7 +80,7 @@ const NoticesSection = () => {
       icon: <Info className="text-secondary" size={24} />,
       title: 'Study Material Available',
       content: 'Comprehensive study materials for all grades are now available for download from the syllabus section.',
-      date: '2025-01-03',
+      date: '2026-01-03',
       time: '4:45 PM',
       bgColor: 'bg-secondary/5',
       borderColor: 'border-secondary/20'
