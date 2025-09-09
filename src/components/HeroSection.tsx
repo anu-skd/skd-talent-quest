@@ -85,13 +85,13 @@ const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void })
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1 }}
             >
-              <a href="#" className="text-white hover:text-secondary transition-colors duration-300">
+              <a href="https://www.facebook.com/skdnsci84" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors duration-300">
                 <Facebook size={28} />
               </a>
-              <a href="#" className="text-white hover:text-secondary transition-colors duration-300">
+              <a href="https://www.instagram.com/skdxpress/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors duration-300">
                 <Instagram size={28} />
               </a>
-              <a href="#" className="text-white hover:text-secondary transition-colors duration-300">
+              <a href="https://www.youtube.com/@SKDXpress" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors duration-300">
                 <Youtube size={28} />
               </a>
             </motion.div>

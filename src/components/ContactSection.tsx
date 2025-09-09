@@ -42,19 +42,19 @@ const ContactSection = () => {
     {
       icon: <Facebook size={20} />,
       name: 'Facebook',
-      url: '#',
+      url: 'https://www.facebook.com/skdnsci84',
       color: 'hover:text-blue-600'
     },
     {
       icon: <Instagram size={20} />,
       name: 'Instagram',
-      url: '#',
+      url: 'https://www.instagram.com/skdxpress/',
       color: 'hover:text-pink-600'
     },
     {
       icon: <Youtube size={20} />,
       name: 'YouTube',
-      url: '#',
+      url: 'https://www.youtube.com/@SKDXpress',
       color: 'hover:text-red-600'
     },
     {
