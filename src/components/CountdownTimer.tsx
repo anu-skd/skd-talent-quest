@@ -9,8 +9,8 @@ interface TimeLeft {
 }
 
 const CountdownTimer = () => {
-  // Set exam date to October 4, 2025
-  const examDate = new Date(2025, 9, 4, 10, 0, 0, 0); // October 4, 2025 at 10:00 AM
+  // Set exam date to October 26, 2025
+  const examDate = new Date(2025, 9, 26, 10, 0, 0, 0); // October 26, 2025 at 10:00 AM
 
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({
     days: 0,
@@ -76,11 +76,7 @@ const CountdownTimer = () => {
         ))}
       </div>
       <p className="text-sm text-white/80 mt-4">
-        Exam Date: {examDate.toLocaleDateString('en-US', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric'
-        })}
+        Exam Dates: October 26 & November 2, 2025
       </p>
     </motion.div>
   );

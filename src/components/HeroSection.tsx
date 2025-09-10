@@ -109,8 +109,8 @@ const HeroSection = ({ onOpenRegistration }: { onOpenRegistration: () => void })
               whileHover={{ scale: 1.05 }}
             >
               <Calendar className="mx-auto mb-4 text-secondary" size={56} />
-               <h3 className="text-3xl font-bold text-white mb-2">Exam Date</h3>
-               <p className="text-xl text-white/80">Oct 4, 2025</p>
+               <h3 className="text-3xl font-bold text-white mb-2">Exam Dates</h3>
+               <p className="text-xl text-white/80">Oct 26 & Nov 2, 2025</p>
             </motion.div>
 
             <motion.div
